@@ -52,6 +52,7 @@ function setSession(authResult) {
 function displayProfile(){
   console.log("Username:",  userProfile.name, "User Email:", userProfile.email, "User Picture", userProfile.picture);
 };
+
 function handleAuthentication() {
     webAuth.parseHash(function(err, authResult) {
       console.log("authResult", authResult);

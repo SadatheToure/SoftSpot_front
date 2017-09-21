@@ -7,11 +7,6 @@ $.get(reviewsURL)
 .then(addMainReviews)
 
 
-
-
-
-
-
 });
 
 //FUNCTION to add dato to Tech Page Data
